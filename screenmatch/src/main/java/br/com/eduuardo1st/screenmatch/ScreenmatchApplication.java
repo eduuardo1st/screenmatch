@@ -17,14 +17,6 @@ public class ScreenmatchApplication implements CommandLineRunner {
         Principal principal = new Principal();
         principal.exibeMenu();
 
-//        List<DadosTemporada> temporadas = new ArrayList<>();
-//
-//        for (int i = 1; i<=dados.totalTemporadas(); i++){
-//            json = consumoApi.obterDados("http://www.omdbapi.com/?t=gilmore+girls&season=" + i + "&apikey=6d407db5");
-//            DadosTemporada dadosTemporada = conversor.obterDados(json, DadosTemporada.class);
-//            temporadas.add(dadosTemporada);
-//        }
-//
-//        temporadas.forEach(System.out::println);
+
     }
 }
